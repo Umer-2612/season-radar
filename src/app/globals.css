@@ -1,26 +1,90 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --bg: #f6f1e7;
+  --surface: #fffcf6;
+  --ink: #17201b;
+  --muted: #5b655f;
+  --line: #e2d9c9;
+  --brand: #1d5a43;
+  --brand-ink: #ffffff;
+  --up: #1d7a50;
+  --down: #c0502a;
+  --chip: #e8f1ea;
+  --berry: #b8322a;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root:not([data-theme="light"]) {
+    --bg: #101512;
+    --surface: #18201c;
+    --ink: #ecefe8;
+    --muted: #a0aaa3;
+    --line: #29332e;
+    --brand: #62c79b;
+    --brand-ink: #0c1310;
+    --up: #62c79b;
+    --down: #f0946a;
+    --chip: #1d2c25;
+    --berry: #f07a6c;
   }
 }
 
+:root[data-theme="dark"] {
+  --bg: #101512;
+  --surface: #18201c;
+  --ink: #ecefe8;
+  --muted: #a0aaa3;
+  --line: #29332e;
+  --brand: #62c79b;
+  --brand-ink: #0c1310;
+  --up: #62c79b;
+  --down: #f0946a;
+  --chip: #1d2c25;
+  --berry: #f07a6c;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-up: var(--up);
+  --color-down: var(--down);
+  --color-chip: var(--chip);
+  --color-berry: var(--berry);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-fraunces);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  text-wrap: balance;
+  letter-spacing: -0.015em;
+}
+
+:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
