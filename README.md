@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Season Radar
 
-## Getting Started
+Know what sells this Black Friday and Christmas. Stock what sells, skip what sits.
 
-First, run the development server:
+Live demo: https://season-radar.vercel.app
+
+![Season Radar home page](docs/screenshots/intro.png)
+
+## Why it exists
+
+- Black Friday and Christmas are the two biggest selling peaks of the year.
+- Irish shops sell 17% more in November and 45% more in December than in an average month.
+- Small sellers still order on gut feel, and the wrong stock sits on the shelf until the January sales.
+- Big chains pay analysts for this. A corner shop has a spreadsheet and a hunch.
+
+![Same season, different winners](docs/screenshots/problem.png)
+
+## Who it's for
+
+- Local shops: gift shops, pharmacies, boutiques, toy shops.
+- Online sellers on Amazon, Etsy and eBay.
+- Small chains ordering stock for a few stores.
+
+## What it does
+
+- Pick your county, your business type and where you sell.
+- Get a ranked list of product groups, each marked Stock up, Hold steady or Go lean.
+- Each card shows Black Friday month, December and a forecast, plus a chart of the last five seasons.
+- A confidence score shows how often the method called the direction right over the last four seasons.
+- Your county's spending power sizes the local market.
+
+![Dashboard](docs/screenshots/dashboard.png)
+
+## Every number has a receipt
+
+- Every figure links to the official table it came from, so anyone can check it in one click.
+- No numbers are made up or guessed. If a source doesn't publish something, the app says so.
+
+| Market | Source | What we use |
+| --- | --- | --- |
+| Ireland | [CSO RSM08](https://data.cso.ie/table/RSM08) | Monthly retail sales volume by sector |
+| Ireland | [CSO RSM07](https://data.cso.ie/table/RSM07) | Share of sales made online |
+| Ireland | [CSO CIA02](https://data.cso.ie/table/CIA02) | Income per person by county (2019, latest on the API) |
+| UK | [ONS retail sales index](https://www.ons.gov.uk/businessindustryandtrade/retailindustry/datasets/retailsales) | Monthly retail sales volume by sector |
+| EU | [Eurostat sts_trtu_m](https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table) | Monthly retail sales volume by sector and country |
+
+![Trust and transparency](docs/screenshots/trust.png)
+
+## How the numbers work
+
+- Black Friday month lift: November sales vs an average month in 2025.
+- Christmas lift: December sales vs an average month in 2025.
+- Forecast: the last three months of sales vs the same months a year earlier.
+- Stock call: Stock up if a sector grows 1.5 points faster than the market, Go lean if 1.5 slower, otherwise Hold steady.
+- Confidence: we replayed the forecast on 2022 to 2025 and count how often it picked the right direction against the market.
+- Sector trends are national. The county figure sizes your local market and doesn't change the trend.
+
+## Run it locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000. Use the arrow keys or swipe to move between slides.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Refresh the data
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+node scripts/fetch-cso.mjs      # Ireland: CSO sales, online share, county income
+node scripts/fetch-markets.mjs  # UK (ONS) and EU (Eurostat), merged with Ireland
+```
 
-## Learn More
+- Both scripts call free public APIs. No keys needed.
+- Output lands in `src/data/`.
 
-To learn more about Next.js, take a look at the following resources:
+## Built with
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js and React
+- Tailwind CSS
+- Motion for animation
+- Deployed on Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## What's next
 
-## Deploy on Vercel
+- Market picker in the dashboard for the UK and EU (data is already in `src/data/markets.json`).
+- Plug in a seller's own Shopify or Amazon sales.
+- County-level demand from bank card-spend data.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built at Codex Night Dublin 2026 for the Smarter Shop track.
