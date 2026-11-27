@@ -1,0 +1,2232 @@
+{
+  "fetchedAt": "2026-11-27",
+  "markets": [
+    {
+      "id": "IE",
+      "name": "Ireland",
+      "source": {
+        "name": "CSO",
+        "dataset": "RSM08",
+        "url": "https://data.cso.ie/table/RSM08"
+      },
+      "latest": "2026 October",
+      "categories": [
+        {
+          "id": "all",
+          "novemberLift": 17,
+          "lastBlackFridayChange": 0.8,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 1.7,
+              "outcome": 4.7
+            },
+            {
+              "year": 2023,
+              "signal": 0.5,
+              "outcome": 1.8
+            },
+            {
+              "year": 2024,
+              "signal": -0.2,
+              "outcome": 1.6
+            },
+            {
+              "year": 2025,
+              "signal": 1.4,
+              "outcome": 0
+            }
+          ],
+          "label": "All Irish retail",
+          "csoGroup": "All retail businesses, excluding motor trades",
+          "christmas": [
+            274.7,
+            287.5,
+            292.8,
+            297.4,
+            297.5
+          ],
+          "lastChristmasChange": 0,
+          "decemberLift": 45,
+          "momentum2026": 3,
+          "onlineShareDec": {
+            "2024": 8,
+            "2025": 8.5
+          },
+          "backtestHits": 4,
+          "backtestYears": 4,
+          "url": "https://data.cso.ie/table/RSM08",
+          "code": "RSM08"
+        },
+        {
+          "id": "toys",
+          "novemberLift": 39,
+          "lastBlackFridayChange": 3.3,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 10.2,
+              "outcome": 6.2
+            },
+            {
+              "year": 2023,
+              "signal": 2,
+              "outcome": 9.8
+            },
+            {
+              "year": 2024,
+              "signal": 0.7,
+              "outcome": 1
+            },
+            {
+              "year": 2025,
+              "signal": 4.3,
+              "outcome": 0.9
+            }
+          ],
+          "label": "Toys, gifts, sports & jewellery",
+          "csoGroup": "Other retail sales (4753,4763 to 4765,4776 to 4778)",
+          "christmas": [
+            344.4,
+            365.6,
+            401.4,
+            405.5,
+            409.2
+          ],
+          "lastChristmasChange": 0.9,
+          "decemberLift": 72,
+          "momentum2026": 5.3,
+          "onlineShareDec": {
+            "2024": 7.9,
+            "2025": 9.9
+          },
+          "backtestHits": 3,
+          "backtestYears": 4,
+          "url": "https://data.cso.ie/table/RSM08",
+          "code": "RSM08"
+        },
+        {
+          "id": "electrical",
+          "novemberLift": 41,
+          "lastBlackFridayChange": -1.1,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -3.7,
+              "outcome": -0.5
+            },
+            {
+              "year": 2023,
+              "signal": 3.3,
+              "outcome": -4.6
+            },
+            {
+              "year": 2024,
+              "signal": -2.8,
+              "outcome": 0.9
+            },
+            {
+              "year": 2025,
+              "signal": 2.1,
+              "outcome": 1.4
+            }
+          ],
+          "label": "Electronics & electrical",
+          "csoGroup": "Retail sale of electrical goods (4741 to 4743,4754)",
+          "christmas": [
+            285.7,
+            284.2,
+            271,
+            273.4,
+            277.2
+          ],
+          "lastChristmasChange": 1.4,
+          "decemberLift": 60,
+          "momentum2026": 1.3,
+          "onlineShareDec": {
+            "2024": 22.5,
+            "2025": 20.6
+          },
+          "backtestHits": 3,
+          "backtestYears": 4,
+          "url": "https://data.cso.ie/table/RSM08",
+          "code": "RSM08"
+        },
+        {
+          "id": "clothing",
+          "novemberLift": 14,
+          "lastBlackFridayChange": -5.7,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -0.7,
+              "outcome": 10.2
+            },
+            {
+              "year": 2023,
+              "signal": -1.2,
+              "outcome": -3.3
+            },
+            {
+              "year": 2024,
+              "signal": 7.5,
+              "outcome": 6.8
+            },
+            {
+              "year": 2025,
+              "signal": -2.7,
+              "outcome": -3.9
+            }
+          ],
+          "label": "Clothes & shoes",
+          "csoGroup": "Retail sale of textiles, clothing and footwear (4751,4771,4772)",
+          "christmas": [
+            332.4,
+            366.3,
+            354.1,
+            378.1,
+            363.2
+          ],
+          "lastChristmasChange": -3.9,
+          "decemberLift": 55,
+          "momentum2026": 1.9,
+          "onlineShareDec": {
+            "2024": 12.2,
+            "2025": 12.8
+          },
+          "backtestHits": 3,
+          "backtestYears": 4,
+          "url": "https://data.cso.ie/table/RSM08",
+          "code": "RSM08"
+        },
+        {
+          "id": "beauty",
+          "novemberLift": 22,
+          "lastBlackFridayChange": 5.3,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 2.4,
+              "outcome": 1.2
+            },
+            {
+              "year": 2023,
+              "signal": 3.3,
+              "outcome": 1.2
+            },
+            {
+              "year": 2024,
+              "signal": -0.8,
+              "outcome": -3.4
+            },
+            {
+              "year": 2025,
+              "signal": 2.7,
+              "outcome": 2.5
+            }
+          ],
+          "label": "Pharmacy & beauty",
+          "csoGroup": "Retail sale of pharmaceutical, medical and cosmetic articles (4773 to 4775)",
+          "christmas": [
+            316.7,
+            320.4,
+            324.3,
+            313.2,
+            321.1
+          ],
+          "lastChristmasChange": 2.5,
+          "decemberLift": 73,
+          "momentum2026": 5.8,
+          "onlineShareDec": {
+            "2024": null,
+            "2025": null
+          },
+          "backtestHits": 2,
+          "backtestYears": 4,
+          "url": "https://data.cso.ie/table/RSM08",
+          "code": "RSM08"
+        },
+        {
+          "id": "books",
+          "novemberLift": 4,
+          "lastBlackFridayChange": 4.2,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -5.3,
+              "outcome": 0.6
+            },
+            {
+              "year": 2023,
+              "signal": -2.2,
+              "outcome": -4
+            },
+            {
+              "year": 2024,
+              "signal": 0.4,
+              "outcome": -1.3
+            },
+            {
+              "year": 2025,
+              "signal": 2.1,
+              "outcome": -5.7
+            }
+          ],
+          "label": "Books & stationery",
+          "csoGroup": "Retail sale of books, newspapers and stationery (4761,4762)",
+          "christmas": [
+            350,
+            352.2,
+            338.2,
+            333.7,
+            314.6
+          ],
+          "lastChristmasChange": -5.7,
+          "decemberLift": 45,
+          "momentum2026": 0.3,
+          "onlineShareDec": {
+            "2024": null,
+            "2025": null
+          },
+          "backtestHits": 2,
+          "backtestYears": 4,
+          "url": "https://data.cso.ie/table/RSM08",
+          "code": "RSM08"
+        },
+        {
+          "id": "home",
+          "novemberLift": 9,
+          "lastBlackFridayChange": -6.9,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -3.8,
+              "outcome": -1.6
+            },
+            {
+              "year": 2023,
+              "signal": 11.9,
+              "outcome": 8.1
+            },
+            {
+              "year": 2024,
+              "signal": 6,
+              "outcome": 4.2
+            },
+            {
+              "year": 2025,
+              "signal": -1.6,
+              "outcome": -5.2
+            }
+          ],
+          "label": "Furniture & lighting",
+          "csoGroup": "Retail sale of furniture and lighting (4759)",
+          "christmas": [
+            248.8,
+            244.8,
+            264.6,
+            275.7,
+            261.5
+          ],
+          "lastChristmasChange": -5.2,
+          "decemberLift": 5,
+          "momentum2026": 1.9,
+          "onlineShareDec": {
+            "2024": null,
+            "2025": null
+          },
+          "backtestHits": 4,
+          "backtestYears": 4,
+          "url": "https://data.cso.ie/table/RSM08",
+          "code": "RSM08"
+        },
+        {
+          "id": "hardware",
+          "novemberLift": -2,
+          "lastBlackFridayChange": 1,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -2.2,
+              "outcome": -3.9
+            },
+            {
+              "year": 2023,
+              "signal": 0.3,
+              "outcome": 1.1
+            },
+            {
+              "year": 2024,
+              "signal": 3,
+              "outcome": 3.1
+            },
+            {
+              "year": 2025,
+              "signal": 5.8,
+              "outcome": -1.4
+            }
+          ],
+          "label": "Hardware & DIY",
+          "csoGroup": "Retail sale of hardware, paints and glass (4752)",
+          "christmas": [
+            195,
+            187.4,
+            189.5,
+            195.3,
+            192.6
+          ],
+          "lastChristmasChange": -1.4,
+          "decemberLift": 0,
+          "momentum2026": -0.5,
+          "onlineShareDec": {
+            "2024": null,
+            "2025": null
+          },
+          "backtestHits": 3,
+          "backtestYears": 4,
+          "url": "https://data.cso.ie/table/RSM08",
+          "code": "RSM08"
+        },
+        {
+          "id": "food",
+          "novemberLift": -3,
+          "lastBlackFridayChange": -8,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -10.7,
+              "outcome": -9.7
+            },
+            {
+              "year": 2023,
+              "signal": -1.4,
+              "outcome": -6.6
+            },
+            {
+              "year": 2024,
+              "signal": -0.6,
+              "outcome": 4.9
+            },
+            {
+              "year": 2025,
+              "signal": -5.2,
+              "outcome": -5.4
+            }
+          ],
+          "label": "Specialist food & drink",
+          "csoGroup": "Retail sale of food, beverages and tobacco in specialised stores (4721 to 4729)",
+          "christmas": [
+            206.9,
+            186.8,
+            174.5,
+            183,
+            173.1
+          ],
+          "lastChristmasChange": -5.4,
+          "decemberLift": 12,
+          "momentum2026": 0,
+          "onlineShareDec": {
+            "2024": 6.6,
+            "2025": 9.1
+          },
+          "backtestHits": 3,
+          "backtestYears": 4,
+          "url": "https://data.cso.ie/table/RSM08",
+          "code": "RSM08"
+        }
+      ]
+    },
+    {
+      "id": "UK",
+      "name": "United Kingdom",
+      "source": {
+        "name": "ONS",
+        "dataset": "Retail sales index",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/datasets/retailsales"
+      },
+      "latest": "2026-10",
+      "categories": [
+        {
+          "id": "all",
+          "label": "UK non-food retail",
+          "code": "EAGX",
+          "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/timeseries/eagx/drsi",
+          "christmas": [
+            258.9,
+            250.7,
+            243.2,
+            249.3,
+            251.4
+          ],
+          "novemberLift": 20,
+          "decemberLift": 27,
+          "lastBlackFridayChange": 5.6,
+          "lastChristmasChange": 0.8,
+          "momentum2026": 1.6,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -6.1,
+              "outcome": -3.2
+            },
+            {
+              "year": 2023,
+              "signal": -2.8,
+              "outcome": -3
+            },
+            {
+              "year": 2024,
+              "signal": 3.3,
+              "outcome": 2.5
+            },
+            {
+              "year": 2025,
+              "signal": 2.6,
+              "outcome": 0.8
+            }
+          ],
+          "latest": "2026-10",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "toys",
+          "label": "Toys, gifts & leisure",
+          "code": "EAHA",
+          "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/timeseries/eaha/drsi",
+          "christmas": [
+            251.4,
+            230.8,
+            228.3,
+            254.1,
+            243.1
+          ],
+          "novemberLift": 16,
+          "decemberLift": 28,
+          "lastBlackFridayChange": -2,
+          "lastChristmasChange": -4.3,
+          "momentum2026": 3.4,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -6.2,
+              "outcome": -8.2
+            },
+            {
+              "year": 2023,
+              "signal": -6.5,
+              "outcome": -1.1
+            },
+            {
+              "year": 2024,
+              "signal": 11.2,
+              "outcome": 11.3
+            },
+            {
+              "year": 2025,
+              "signal": 0.7,
+              "outcome": -4.3
+            }
+          ],
+          "latest": "2026-10",
+          "backtestHits": 3,
+          "backtestYears": 4
+        },
+        {
+          "id": "electrical",
+          "label": "Electronics & electrical",
+          "code": "J43X",
+          "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/timeseries/j43x/drsi",
+          "christmas": [
+            333.9,
+            301.2,
+            276.4,
+            286.8,
+            314.2
+          ],
+          "novemberLift": 51,
+          "decemberLift": 32,
+          "lastBlackFridayChange": 28.4,
+          "lastChristmasChange": 9.6,
+          "momentum2026": 6.2,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -14.7,
+              "outcome": -9.8
+            },
+            {
+              "year": 2023,
+              "signal": -4.4,
+              "outcome": -8.2
+            },
+            {
+              "year": 2024,
+              "signal": 1.7,
+              "outcome": 3.8
+            },
+            {
+              "year": 2025,
+              "signal": 12.8,
+              "outcome": 9.6
+            }
+          ],
+          "latest": "2026-10",
+          "backtestHits": 3,
+          "backtestYears": 4
+        },
+        {
+          "id": "clothing",
+          "label": "Clothes & shoes",
+          "code": "EAGY",
+          "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/timeseries/eagy/drsi",
+          "christmas": [
+            256.4,
+            269.3,
+            258,
+            246.5,
+            258.9
+          ],
+          "novemberLift": 19,
+          "decemberLift": 36,
+          "lastBlackFridayChange": 10.3,
+          "lastChristmasChange": 5,
+          "momentum2026": -1,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -1.3,
+              "outcome": 5
+            },
+            {
+              "year": 2023,
+              "signal": -0.4,
+              "outcome": -4.2
+            },
+            {
+              "year": 2024,
+              "signal": -0.5,
+              "outcome": -4.5
+            },
+            {
+              "year": 2025,
+              "signal": 3.7,
+              "outcome": 5
+            }
+          ],
+          "latest": "2026-10",
+          "backtestHits": 3,
+          "backtestYears": 4
+        },
+        {
+          "id": "beauty",
+          "label": "Pharmacy & beauty",
+          "code": "EAQS",
+          "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/timeseries/eaqs/drsi",
+          "christmas": [
+            240.7,
+            246.5,
+            254.5,
+            264.8,
+            235.3
+          ],
+          "novemberLift": 18,
+          "decemberLift": 39,
+          "lastBlackFridayChange": -6.7,
+          "lastChristmasChange": -11.1,
+          "momentum2026": 9.9,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -3.6,
+              "outcome": 2.4
+            },
+            {
+              "year": 2023,
+              "signal": -2.6,
+              "outcome": 3.2
+            },
+            {
+              "year": 2024,
+              "signal": 3.3,
+              "outcome": 4
+            },
+            {
+              "year": 2025,
+              "signal": -6.1,
+              "outcome": -11.1
+            }
+          ],
+          "latest": "2026-10",
+          "backtestHits": 3,
+          "backtestYears": 4
+        },
+        {
+          "id": "books",
+          "label": "Books & stationery",
+          "code": "JKO7",
+          "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/timeseries/jko7/drsi",
+          "christmas": [
+            314.3,
+            308.9,
+            290.6,
+            332.8,
+            321.4
+          ],
+          "novemberLift": 15,
+          "decemberLift": 52,
+          "lastBlackFridayChange": 7.4,
+          "lastChristmasChange": -3.4,
+          "momentum2026": -1,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 0.3,
+              "outcome": -1.7
+            },
+            {
+              "year": 2023,
+              "signal": -8.4,
+              "outcome": -5.9
+            },
+            {
+              "year": 2024,
+              "signal": -4.7,
+              "outcome": 14.5
+            },
+            {
+              "year": 2025,
+              "signal": 37.6,
+              "outcome": -3.4
+            }
+          ],
+          "latest": "2026-10",
+          "backtestHits": 2,
+          "backtestYears": 4
+        },
+        {
+          "id": "home",
+          "label": "Home & furniture",
+          "code": "EAQK",
+          "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/timeseries/eaqk/drsi",
+          "christmas": [
+            227.8,
+            243.2,
+            230.6,
+            215.5,
+            219.7
+          ],
+          "novemberLift": 15,
+          "decemberLift": 0,
+          "lastBlackFridayChange": 2.9,
+          "lastChristmasChange": 1.9,
+          "momentum2026": 7.2,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -3.8,
+              "outcome": 6.8
+            },
+            {
+              "year": 2023,
+              "signal": -1.6,
+              "outcome": -5.2
+            },
+            {
+              "year": 2024,
+              "signal": -10.6,
+              "outcome": -6.5
+            },
+            {
+              "year": 2025,
+              "signal": 3.5,
+              "outcome": 1.9
+            }
+          ],
+          "latest": "2026-10",
+          "backtestHits": 3,
+          "backtestYears": 4
+        },
+        {
+          "id": "hardware",
+          "label": "Hardware & DIY",
+          "code": "EAQM",
+          "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/timeseries/eaqm/drsi",
+          "christmas": [
+            229.6,
+            183.5,
+            175.3,
+            179.9,
+            185.5
+          ],
+          "novemberLift": 10,
+          "decemberLift": -25,
+          "lastBlackFridayChange": 8.1,
+          "lastChristmasChange": 3.1,
+          "momentum2026": -1.8,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -18.1,
+              "outcome": -20.1
+            },
+            {
+              "year": 2023,
+              "signal": -4.7,
+              "outcome": -4.5
+            },
+            {
+              "year": 2024,
+              "signal": 3.7,
+              "outcome": 2.6
+            },
+            {
+              "year": 2025,
+              "signal": 0,
+              "outcome": 3.1
+            }
+          ],
+          "latest": "2026-10",
+          "backtestHits": 3,
+          "backtestYears": 4
+        },
+        {
+          "id": "food",
+          "label": "Specialist food & drink",
+          "code": "CY3Y",
+          "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/timeseries/cy3y/drsi",
+          "christmas": [
+            201.6,
+            216.1,
+            240.9,
+            212.4,
+            219.9
+          ],
+          "novemberLift": 9,
+          "decemberLift": 8,
+          "lastBlackFridayChange": 8.8,
+          "lastChristmasChange": 3.5,
+          "momentum2026": 1.3,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 8.1,
+              "outcome": 7.2
+            },
+            {
+              "year": 2023,
+              "signal": 7.9,
+              "outcome": 11.5
+            },
+            {
+              "year": 2024,
+              "signal": -7.4,
+              "outcome": -11.8
+            },
+            {
+              "year": 2025,
+              "signal": 3.3,
+              "outcome": 3.5
+            }
+          ],
+          "latest": "2026-10",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "online",
+          "label": "Online shops",
+          "code": "EAQP",
+          "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/timeseries/eaqp/drsi",
+          "christmas": [
+            286.1,
+            231.9,
+            245.1,
+            243,
+            256.2
+          ],
+          "novemberLift": 28,
+          "decemberLift": 20,
+          "lastBlackFridayChange": 9.1,
+          "lastChristmasChange": 5.4,
+          "momentum2026": 6.7,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -14,
+              "outcome": -18.9
+            },
+            {
+              "year": 2023,
+              "signal": 2,
+              "outcome": 5.7
+            },
+            {
+              "year": 2024,
+              "signal": 3.5,
+              "outcome": -0.9
+            },
+            {
+              "year": 2025,
+              "signal": 6.5,
+              "outcome": 5.4
+            }
+          ],
+          "latest": "2026-10",
+          "backtestHits": 3,
+          "backtestYears": 4
+        }
+      ]
+    },
+    {
+      "id": "DE",
+      "name": "Germany",
+      "source": {
+        "name": "Eurostat",
+        "dataset": "sts_trtu_m",
+        "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table"
+      },
+      "latest": "2026-09",
+      "categories": [
+        {
+          "id": "all",
+          "label": "Germany retail",
+          "code": "G47_X_G473",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            225.6,
+            215.5,
+            210.2,
+            216.8,
+            220.6
+          ],
+          "novemberLift": 6,
+          "decemberLift": 14,
+          "lastBlackFridayChange": -1.6,
+          "lastChristmasChange": 1.8,
+          "momentum2026": -1.3,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -2.2,
+              "outcome": -4.5
+            },
+            {
+              "year": 2023,
+              "signal": -2.4,
+              "outcome": -2.5
+            },
+            {
+              "year": 2024,
+              "signal": 3.6,
+              "outcome": 3.1
+            },
+            {
+              "year": 2025,
+              "signal": 1.6,
+              "outcome": 1.8
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "toys",
+          "label": "Toys, gifts & leisure",
+          "code": "G476",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            206.3,
+            210.9,
+            203.3,
+            194.1,
+            193.9
+          ],
+          "novemberLift": -11,
+          "decemberLift": 9,
+          "lastBlackFridayChange": -4.6,
+          "lastChristmasChange": -0.1,
+          "momentum2026": 1.1,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 0,
+              "outcome": 2.2
+            },
+            {
+              "year": 2023,
+              "signal": 2.4,
+              "outcome": -3.6
+            },
+            {
+              "year": 2024,
+              "signal": -7,
+              "outcome": -4.5
+            },
+            {
+              "year": 2025,
+              "signal": -4.2,
+              "outcome": -0.1
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 3,
+          "backtestYears": 4
+        },
+        {
+          "id": "electrical",
+          "label": "Electronics & electrical",
+          "code": "G474",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            289.8,
+            279.9,
+            281.3,
+            297.5,
+            304.1
+          ],
+          "novemberLift": 32,
+          "decemberLift": 44,
+          "lastBlackFridayChange": -1.3,
+          "lastChristmasChange": 2.2,
+          "momentum2026": 0.9,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -1.7,
+              "outcome": -3.4
+            },
+            {
+              "year": 2023,
+              "signal": -2.8,
+              "outcome": 0.5
+            },
+            {
+              "year": 2024,
+              "signal": 1.9,
+              "outcome": 5.8
+            },
+            {
+              "year": 2025,
+              "signal": 3.8,
+              "outcome": 2.2
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 2,
+          "backtestYears": 4
+        },
+        {
+          "id": "home",
+          "label": "Home & furniture",
+          "code": "G475",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            225.2,
+            205,
+            184.5,
+            182.4,
+            182.9
+          ],
+          "novemberLift": 3,
+          "decemberLift": 3,
+          "lastBlackFridayChange": -3.6,
+          "lastChristmasChange": 0.3,
+          "momentum2026": -1.7,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -8.9,
+              "outcome": -9
+            },
+            {
+              "year": 2023,
+              "signal": -8,
+              "outcome": -10
+            },
+            {
+              "year": 2024,
+              "signal": -1.9,
+              "outcome": -1.1
+            },
+            {
+              "year": 2025,
+              "signal": -1.3,
+              "outcome": 0.3
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "food",
+          "label": "Specialist food & drink",
+          "code": "G472",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            216.7,
+            197.3,
+            188.8,
+            188,
+            185.4
+          ],
+          "novemberLift": -3,
+          "decemberLift": 9,
+          "lastBlackFridayChange": -3.5,
+          "lastChristmasChange": -1.4,
+          "momentum2026": -0.8,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -5.6,
+              "outcome": -9
+            },
+            {
+              "year": 2023,
+              "signal": -4.8,
+              "outcome": -4.3
+            },
+            {
+              "year": 2024,
+              "signal": -0.1,
+              "outcome": -0.4
+            },
+            {
+              "year": 2025,
+              "signal": -1.9,
+              "outcome": -1.4
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "online",
+          "label": "Online shops",
+          "code": "G4791",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            235.2,
+            233.5,
+            224.4,
+            255,
+            267.5
+          ],
+          "novemberLift": 21,
+          "decemberLift": 21,
+          "lastBlackFridayChange": 3.3,
+          "lastChristmasChange": 4.9,
+          "momentum2026": 2.5,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 4.3,
+              "outcome": -0.7
+            },
+            {
+              "year": 2023,
+              "signal": -4.1,
+              "outcome": -3.9
+            },
+            {
+              "year": 2024,
+              "signal": 14,
+              "outcome": 13.6
+            },
+            {
+              "year": 2025,
+              "signal": 5.4,
+              "outcome": 4.9
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        }
+      ]
+    },
+    {
+      "id": "FR",
+      "name": "France",
+      "source": {
+        "name": "Eurostat",
+        "dataset": "sts_trtu_m",
+        "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table"
+      },
+      "latest": "2026-09",
+      "categories": [
+        {
+          "id": "all",
+          "label": "France retail",
+          "code": "G47_X_G473",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            232.8,
+            231.7,
+            230.2,
+            234.1,
+            243.1
+          ],
+          "novemberLift": 3,
+          "decemberLift": 25,
+          "lastBlackFridayChange": 2.6,
+          "lastChristmasChange": 3.8,
+          "momentum2026": 3.6,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 1.8,
+              "outcome": -0.5
+            },
+            {
+              "year": 2023,
+              "signal": -1.8,
+              "outcome": -0.6
+            },
+            {
+              "year": 2024,
+              "signal": 3.9,
+              "outcome": 1.7
+            },
+            {
+              "year": 2025,
+              "signal": 2.5,
+              "outcome": 3.8
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "toys",
+          "label": "Toys, gifts & leisure",
+          "code": "G476",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            266,
+            275.1,
+            272.5,
+            275,
+            283.2
+          ],
+          "novemberLift": 4,
+          "decemberLift": 55,
+          "lastBlackFridayChange": 2.1,
+          "lastChristmasChange": 3,
+          "momentum2026": 1.4,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 4.9,
+              "outcome": 3.4
+            },
+            {
+              "year": 2023,
+              "signal": -1,
+              "outcome": -0.9
+            },
+            {
+              "year": 2024,
+              "signal": -0.1,
+              "outcome": 0.9
+            },
+            {
+              "year": 2025,
+              "signal": 1,
+              "outcome": 3
+            }
+          ],
+          "latest": "2026-08",
+          "backtestHits": 3,
+          "backtestYears": 4
+        },
+        {
+          "id": "electrical",
+          "label": "Electronics & electrical",
+          "code": "G474",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            284.3,
+            305.1,
+            337.2,
+            322.6,
+            356
+          ],
+          "novemberLift": 14,
+          "decemberLift": 66,
+          "lastBlackFridayChange": 12.4,
+          "lastChristmasChange": 10.4,
+          "momentum2026": 4.2,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 4.7,
+              "outcome": 7.3
+            },
+            {
+              "year": 2023,
+              "signal": 0.3,
+              "outcome": 10.5
+            },
+            {
+              "year": 2024,
+              "signal": 5.1,
+              "outcome": -4.3
+            },
+            {
+              "year": 2025,
+              "signal": 10.9,
+              "outcome": 10.4
+            }
+          ],
+          "latest": "2026-08",
+          "backtestHits": 3,
+          "backtestYears": 4
+        },
+        {
+          "id": "home",
+          "label": "Home & furniture",
+          "code": "G475",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            214.9,
+            210.4,
+            192.8,
+            188.3,
+            186.6
+          ],
+          "novemberLift": 8,
+          "decemberLift": 9,
+          "lastBlackFridayChange": -0.8,
+          "lastChristmasChange": -0.9,
+          "momentum2026": 0.2,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -2.9,
+              "outcome": -2.1
+            },
+            {
+              "year": 2023,
+              "signal": -8.2,
+              "outcome": -8.4
+            },
+            {
+              "year": 2024,
+              "signal": -2.1,
+              "outcome": -2.3
+            },
+            {
+              "year": 2025,
+              "signal": -1.1,
+              "outcome": -0.9
+            }
+          ],
+          "latest": "2026-08",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "food",
+          "label": "Specialist food & drink",
+          "code": "G472",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            233.5,
+            226.4,
+            222,
+            231.2,
+            238.6
+          ],
+          "novemberLift": -3,
+          "decemberLift": 38,
+          "lastBlackFridayChange": 1.4,
+          "lastChristmasChange": 3.2,
+          "momentum2026": 1.6,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -1.5,
+              "outcome": -3
+            },
+            {
+              "year": 2023,
+              "signal": -3.5,
+              "outcome": -1.9
+            },
+            {
+              "year": 2024,
+              "signal": 3.9,
+              "outcome": 4.1
+            },
+            {
+              "year": 2025,
+              "signal": 3.5,
+              "outcome": 3.2
+            }
+          ],
+          "latest": "2026-08",
+          "backtestHits": 2,
+          "backtestYears": 4
+        },
+        {
+          "id": "online",
+          "label": "Online shops",
+          "code": "G4791",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            251.8,
+            242.6,
+            247.1,
+            249.5,
+            271
+          ],
+          "novemberLift": 29,
+          "decemberLift": 37,
+          "lastBlackFridayChange": 9.2,
+          "lastChristmasChange": 8.6,
+          "momentum2026": 8.9,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 0,
+              "outcome": -3.7
+            },
+            {
+              "year": 2023,
+              "signal": -0.9,
+              "outcome": 1.9
+            },
+            {
+              "year": 2024,
+              "signal": 10.9,
+              "outcome": 1
+            },
+            {
+              "year": 2025,
+              "signal": -0.9,
+              "outcome": 8.6
+            }
+          ],
+          "latest": "2026-08",
+          "backtestHits": 2,
+          "backtestYears": 4
+        }
+      ]
+    },
+    {
+      "id": "ES",
+      "name": "Spain",
+      "source": {
+        "name": "Eurostat",
+        "dataset": "sts_trtu_m",
+        "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table"
+      },
+      "latest": "2026-09",
+      "categories": [
+        {
+          "id": "all",
+          "label": "Spain retail",
+          "code": "G47_X_G473",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            226.1,
+            219.8,
+            227.8,
+            234.3,
+            244.2
+          ],
+          "novemberLift": 1,
+          "decemberLift": 20,
+          "lastBlackFridayChange": 3.8,
+          "lastChristmasChange": 4.2,
+          "momentum2026": 0.6,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 0.3,
+              "outcome": -2.8
+            },
+            {
+              "year": 2023,
+              "signal": 2.7,
+              "outcome": 3.6
+            },
+            {
+              "year": 2024,
+              "signal": 3.2,
+              "outcome": 2.9
+            },
+            {
+              "year": 2025,
+              "signal": 4.7,
+              "outcome": 4.2
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "toys",
+          "label": "Toys, gifts & leisure",
+          "code": "G476",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            250.2,
+            270.3,
+            285.3,
+            284.8,
+            292.4
+          ],
+          "novemberLift": 0,
+          "decemberLift": 46,
+          "lastBlackFridayChange": 5,
+          "lastChristmasChange": 2.7,
+          "momentum2026": 8.8,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 7.8,
+              "outcome": 8
+            },
+            {
+              "year": 2023,
+              "signal": 10.6,
+              "outcome": 5.5
+            },
+            {
+              "year": 2024,
+              "signal": -2.8,
+              "outcome": -0.2
+            },
+            {
+              "year": 2025,
+              "signal": 1.9,
+              "outcome": 2.7
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "electrical",
+          "label": "Electronics & electrical",
+          "code": "G474",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            264.5,
+            289.1,
+            351.8,
+            398.8,
+            477.4
+          ],
+          "novemberLift": 33,
+          "decemberLift": 52,
+          "lastBlackFridayChange": 16.1,
+          "lastChristmasChange": 19.7,
+          "momentum2026": 1.7,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 12.9,
+              "outcome": 9.3
+            },
+            {
+              "year": 2023,
+              "signal": 19.1,
+              "outcome": 21.7
+            },
+            {
+              "year": 2024,
+              "signal": 9.3,
+              "outcome": 13.4
+            },
+            {
+              "year": 2025,
+              "signal": 23.8,
+              "outcome": 19.7
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "home",
+          "label": "Home & furniture",
+          "code": "G475",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            209.8,
+            203.5,
+            213.3,
+            219.3,
+            229.1
+          ],
+          "novemberLift": 4,
+          "decemberLift": 5,
+          "lastBlackFridayChange": 4.9,
+          "lastChristmasChange": 4.5,
+          "momentum2026": 0.9,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -0.3,
+              "outcome": -3
+            },
+            {
+              "year": 2023,
+              "signal": -0.6,
+              "outcome": 4.8
+            },
+            {
+              "year": 2024,
+              "signal": 4.4,
+              "outcome": 2.8
+            },
+            {
+              "year": 2025,
+              "signal": 5.4,
+              "outcome": 4.5
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 2,
+          "backtestYears": 4
+        },
+        {
+          "id": "food",
+          "label": "Specialist food & drink",
+          "code": "G472",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            216.8,
+            199,
+            199.5,
+            208,
+            213
+          ],
+          "novemberLift": -4,
+          "decemberLift": 14,
+          "lastBlackFridayChange": 1.4,
+          "lastChristmasChange": 2.4,
+          "momentum2026": -3.4,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -5.1,
+              "outcome": -8.2
+            },
+            {
+              "year": 2023,
+              "signal": 1.8,
+              "outcome": 0.3
+            },
+            {
+              "year": 2024,
+              "signal": 4.1,
+              "outcome": 4.3
+            },
+            {
+              "year": 2025,
+              "signal": 5,
+              "outcome": 2.4
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 3,
+          "backtestYears": 4
+        },
+        {
+          "id": "online",
+          "label": "Online shops",
+          "code": "G4791",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            268.4,
+            228.9,
+            236.7,
+            247.5,
+            284.7
+          ],
+          "novemberLift": 24,
+          "decemberLift": 43,
+          "lastBlackFridayChange": 10.6,
+          "lastChristmasChange": 15,
+          "momentum2026": 3.2,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -6.3,
+              "outcome": -14.7
+            },
+            {
+              "year": 2023,
+              "signal": 0.9,
+              "outcome": 3.4
+            },
+            {
+              "year": 2024,
+              "signal": 7.2,
+              "outcome": 4.6
+            },
+            {
+              "year": 2025,
+              "signal": 11.5,
+              "outcome": 15
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        }
+      ]
+    },
+    {
+      "id": "IT",
+      "name": "Italy",
+      "source": {
+        "name": "Eurostat",
+        "dataset": "sts_trtu_m",
+        "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table"
+      },
+      "latest": "2026-09",
+      "categories": [
+        {
+          "id": "all",
+          "label": "Italy retail",
+          "code": "G47_X_G473",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            231.3,
+            224.1,
+            218.1,
+            217.9,
+            218.1
+          ],
+          "novemberLift": 4,
+          "decemberLift": 24,
+          "lastBlackFridayChange": 0.3,
+          "lastChristmasChange": 0.1,
+          "momentum2026": -0.5,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -2.9,
+              "outcome": -3.1
+            },
+            {
+              "year": 2023,
+              "signal": -3.7,
+              "outcome": -2.7
+            },
+            {
+              "year": 2024,
+              "signal": 0.7,
+              "outcome": -0.1
+            },
+            {
+              "year": 2025,
+              "signal": -1,
+              "outcome": 0.1
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "toys",
+          "label": "Toys, gifts & leisure",
+          "code": "G476",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            246.4,
+            245.6,
+            241.4,
+            240.1,
+            238.5
+          ],
+          "novemberLift": -1,
+          "decemberLift": 47,
+          "lastBlackFridayChange": 2.1,
+          "lastChristmasChange": -0.7,
+          "momentum2026": -0.2,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -2.1,
+              "outcome": -0.3
+            },
+            {
+              "year": 2023,
+              "signal": -3.3,
+              "outcome": -1.7
+            },
+            {
+              "year": 2024,
+              "signal": -0.5,
+              "outcome": -0.5
+            },
+            {
+              "year": 2025,
+              "signal": -0.4,
+              "outcome": -0.7
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 3,
+          "backtestYears": 4
+        },
+        {
+          "id": "electrical",
+          "label": "Electronics & electrical",
+          "code": "G474",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            246.7,
+            247.7,
+            254.6,
+            287.8,
+            319.2
+          ],
+          "novemberLift": 4,
+          "decemberLift": 43,
+          "lastBlackFridayChange": 9.5,
+          "lastChristmasChange": 10.9,
+          "momentum2026": 0.9,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 2.8,
+              "outcome": 0.4
+            },
+            {
+              "year": 2023,
+              "signal": -4.1,
+              "outcome": 2.8
+            },
+            {
+              "year": 2024,
+              "signal": 14.7,
+              "outcome": 13
+            },
+            {
+              "year": 2025,
+              "signal": 8.8,
+              "outcome": 10.9
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 3,
+          "backtestYears": 4
+        },
+        {
+          "id": "home",
+          "label": "Home & furniture",
+          "code": "G475",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            242.1,
+            232.5,
+            220.7,
+            219.3,
+            216.5
+          ],
+          "novemberLift": 11,
+          "decemberLift": 24,
+          "lastBlackFridayChange": -0.7,
+          "lastChristmasChange": -1.3,
+          "momentum2026": -0.6,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -3.1,
+              "outcome": -4
+            },
+            {
+              "year": 2023,
+              "signal": -5.5,
+              "outcome": -5.1
+            },
+            {
+              "year": 2024,
+              "signal": -0.9,
+              "outcome": -0.6
+            },
+            {
+              "year": 2025,
+              "signal": -1.4,
+              "outcome": -1.3
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "food",
+          "label": "Specialist food & drink",
+          "code": "G472",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            228.8,
+            208.9,
+            200.3,
+            193.4,
+            190.5
+          ],
+          "novemberLift": -6,
+          "decemberLift": 32,
+          "lastBlackFridayChange": -3.6,
+          "lastChristmasChange": -1.5,
+          "momentum2026": -1.5,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -7.9,
+              "outcome": -8.7
+            },
+            {
+              "year": 2023,
+              "signal": -5,
+              "outcome": -4.1
+            },
+            {
+              "year": 2024,
+              "signal": -0.5,
+              "outcome": -3.4
+            },
+            {
+              "year": 2025,
+              "signal": -2.6,
+              "outcome": -1.5
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "online",
+          "label": "Online shops",
+          "code": "G4791",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            295,
+            296.6,
+            294.7,
+            305.1,
+            324.7
+          ],
+          "novemberLift": 47,
+          "decemberLift": 48,
+          "lastBlackFridayChange": 9,
+          "lastChristmasChange": 6.4,
+          "momentum2026": 3.7,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 6,
+              "outcome": 0.5
+            },
+            {
+              "year": 2023,
+              "signal": -0.3,
+              "outcome": -0.6
+            },
+            {
+              "year": 2024,
+              "signal": 3.5,
+              "outcome": 3.5
+            },
+            {
+              "year": 2025,
+              "signal": 6.2,
+              "outcome": 6.4
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        }
+      ]
+    },
+    {
+      "id": "NL",
+      "name": "Netherlands",
+      "source": {
+        "name": "Eurostat",
+        "dataset": "sts_trtu_m",
+        "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table"
+      },
+      "latest": "2026-09",
+      "categories": [
+        {
+          "id": "all",
+          "label": "Netherlands retail",
+          "code": "G47_X_G473",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            217.8,
+            216.8,
+            216.4,
+            216.2,
+            220.3
+          ],
+          "novemberLift": 5,
+          "decemberLift": 11,
+          "lastBlackFridayChange": 1,
+          "lastChristmasChange": 1.9,
+          "momentum2026": 2.3,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -3.3,
+              "outcome": -0.5
+            },
+            {
+              "year": 2023,
+              "signal": -0.7,
+              "outcome": -0.2
+            },
+            {
+              "year": 2024,
+              "signal": 1.6,
+              "outcome": -0.1
+            },
+            {
+              "year": 2025,
+              "signal": 1.9,
+              "outcome": 1.9
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "toys",
+          "label": "Toys, gifts & leisure",
+          "code": "G476",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            201,
+            223.9,
+            205,
+            208.5,
+            214.6
+          ],
+          "novemberLift": -5,
+          "decemberLift": 1,
+          "lastBlackFridayChange": 2.7,
+          "lastChristmasChange": 2.9,
+          "momentum2026": 5.2,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -3.2,
+              "outcome": 11.4
+            },
+            {
+              "year": 2023,
+              "signal": -2.5,
+              "outcome": -8.4
+            },
+            {
+              "year": 2024,
+              "signal": 3.3,
+              "outcome": 1.7
+            },
+            {
+              "year": 2025,
+              "signal": 2.1,
+              "outcome": 2.9
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "electrical",
+          "label": "Electronics & electrical",
+          "code": "G474",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            242,
+            260.7,
+            252.4,
+            270.4,
+            277.2
+          ],
+          "novemberLift": 43,
+          "decemberLift": 26,
+          "lastBlackFridayChange": 1.1,
+          "lastChristmasChange": 2.5,
+          "momentum2026": 2.3,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -6,
+              "outcome": 7.7
+            },
+            {
+              "year": 2023,
+              "signal": -5,
+              "outcome": -3.2
+            },
+            {
+              "year": 2024,
+              "signal": 9.4,
+              "outcome": 7.1
+            },
+            {
+              "year": 2025,
+              "signal": 2.2,
+              "outcome": 2.5
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 3,
+          "backtestYears": 4
+        },
+        {
+          "id": "home",
+          "label": "Home & furniture",
+          "code": "G475",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            209.7,
+            199.8,
+            191.6,
+            194.7,
+            190.5
+          ],
+          "novemberLift": 3,
+          "decemberLift": 2,
+          "lastBlackFridayChange": -1.5,
+          "lastChristmasChange": -2.2,
+          "momentum2026": 2,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -9.1,
+              "outcome": -4.7
+            },
+            {
+              "year": 2023,
+              "signal": -4.5,
+              "outcome": -4.1
+            },
+            {
+              "year": 2024,
+              "signal": 3.1,
+              "outcome": 1.6
+            },
+            {
+              "year": 2025,
+              "signal": -1.1,
+              "outcome": -2.2
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 4,
+          "backtestYears": 4
+        },
+        {
+          "id": "food",
+          "label": "Specialist food & drink",
+          "code": "G472",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            239.3,
+            216.5,
+            213.4,
+            209,
+            200.6
+          ],
+          "novemberLift": -1,
+          "decemberLift": 30,
+          "lastBlackFridayChange": -4.3,
+          "lastChristmasChange": -4,
+          "momentum2026": 0.3,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": -12.3,
+              "outcome": -9.5
+            },
+            {
+              "year": 2023,
+              "signal": -0.8,
+              "outcome": -1.4
+            },
+            {
+              "year": 2024,
+              "signal": 1.9,
+              "outcome": -2.1
+            },
+            {
+              "year": 2025,
+              "signal": -4,
+              "outcome": -4
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 3,
+          "backtestYears": 4
+        },
+        {
+          "id": "online",
+          "label": "Online shops",
+          "code": "G4791",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m/default/table",
+          "christmas": [
+            230.8,
+            222,
+            228.8,
+            248.2,
+            262.9
+          ],
+          "novemberLift": 15,
+          "decemberLift": 15,
+          "lastBlackFridayChange": 6.5,
+          "lastChristmasChange": 5.9,
+          "momentum2026": 3.2,
+          "backtest": [
+            {
+              "year": 2022,
+              "signal": 0.3,
+              "outcome": -3.8
+            },
+            {
+              "year": 2023,
+              "signal": 3.6,
+              "outcome": 3.1
+            },
+            {
+              "year": 2024,
+              "signal": 9.7,
+              "outcome": 8.5
+            },
+            {
+              "year": 2025,
+              "signal": 6.1,
+              "outcome": 5.9
+            }
+          ],
+          "latest": "2026-09",
+          "backtestHits": 3,
+          "backtestYears": 4
+        }
+      ]
+    }
+  ]
+}
